@@ -1,0 +1,43 @@
+{
+  "name": "desafio-capitulo-final",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@types/dropzone": "^5.7.4",
+    "@types/mapbox": "^1.6.42",
+    "@types/mapbox-gl": "^2.7.8",
+    "@types/node": "^18.11.9",
+    "@vaadin/router": "^1.7.4",
+    "algoliasearch": "^4.14.2",
+    "cloudinary": "^1.32.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "dropzone": "^6.0.0-beta.2",
+    "jsonwebtoken": "^8.5.1",
+    "mapbox": "^1.0.0-beta10",
+    "mapbox-gl": "^2.11.0",
+    "nodemon": "^2.0.20",
+    "parcel": "^2.7.0",
+    "ts-node": "10.8.1"
+  },
+  "scripts": {
+    "dev:fe": "parcel serve ./fe-src/index.html",
+    "build:front": "parcel build ./fe-src/index.html",
+    "build": "yarn build:front",
+    "start": ""
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "node": "16.14.0",
+    "npm": "8.3.1",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1",
+    "ts-node": "10.8.1",
+    "typescript": "^4.7.4",
+    "url": "^0.11.0",
+    "yarn": "1.22.18"
+  }
+}
